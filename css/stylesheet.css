@@ -1,0 +1,364 @@
+                                                            /*GENERAL CSS*/
+* {
+  box-sizing: border-box;
+  font-family:'Times New Roman', Times, serif;
+  margin:0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+span {
+ color: red;
+}
+
+
+  
+ body {
+  background-color:#D4F1F4;
+  height: 100%;
+ }
+
+/*main*/
+ main {
+  text-align: center;
+}
+
+.container {
+  border-radius: 20px;
+  width: 40%;
+  margin: 150px auto;
+  background-color: white;
+  padding: 20px;
+}
+
+.container h1 {
+  padding-bottom: 20px;
+}
+
+.container p {
+  padding-top: 20px;
+}
+
+
+/*送信ボタンの装飾*/
+.submit {
+  color: white;
+  width: 100px;
+  padding: 5px 15px;
+  background-color: #189AB4;
+  border: none;
+  border-radius: 10px;
+  /*transition: 0.3s all;*/
+  cursor: pointer;
+}
+
+.submit:hover {
+position: relative;
+  top: -3px;
+  background-color: #145DA0;
+}
+
+.submit:active {
+  box-shadow: none;
+  position: relative;
+  top: 3px;
+}
+
+
+/*サインイン時等の入力欄*/
+.info-input {
+  margin: 0 0 0 10px;
+  height: 28px;
+  width: 300px;
+  margin-bottom: 15px;
+  border-bottom:1px solid #cccccc;
+  border-right:none;
+  border-left:none;
+  border-top:none;
+  background-color: transparent;
+  padding: 10px;
+}
+
+.back {
+  padding: 5px;
+  background-color: #189AB4;
+  border: none;
+  border-radius: 7px;
+  color: white;
+  margin-right: 10px;
+  margin-top: 20px;
+}
+
+                              /*header*/
+header {
+  height: 60px;
+  width: 100%;
+  background-color:#05445E;
+  box-shadow:10px 10px 5;
+  /* position: fixed;
+  top: 0px;
+  z-index: 10; */
+}
+
+/*header logo*/
+.headerlogo {
+  height: 50px;
+  float: left;
+  margin: 7px 0px 0px 10px;;
+}
+
+
+                                  /*userhomeのheader*/
+
+.userhome-header {
+  height: 60px;
+  width: 100%;
+  background-color:#05445E;
+  box-shadow:10px 10px 5;
+  position: fixed;
+  top: 0px;
+  z-index: 10;
+}                     
+
+.header-right {
+  float: right;
+  margin-right: 15px;
+  transition: all 0.5s;
+}
+
+.header-right:hover {
+  background-color: #189AB4;
+}
+
+.header-right a{
+  color: white;
+  display: block;
+  line-height: 60px;
+  padding: 0 10px;
+}
+
+                                 /*index*/
+.topheading {
+  background-color: #E0FFFF;
+  font-size: 40px;
+  text-align: center;
+  padding: 150px 0;
+  margin: 200px 30px 30px 30px;
+  border-radius: 100px;
+}
+
+.btn-wrapper {
+  text-align: center;
+}
+
+.btn-wrapper a {
+  color: white;
+}
+
+.btn {
+  margin-top: 50px;
+  font-size: 30px;
+  line-height: 80px;
+  display: inline-block;
+  width: 200px;
+  height: 80px;
+  border-radius: 10px;
+}
+
+.btn:hover {
+  position: relative;
+  top: -5px;
+}
+
+.btn:active {
+  position: relative;
+  top: 5px;
+}
+
+
+
+.signup {
+  background-color: rgb(99, 141, 99);
+  margin-right: 20px;
+}
+
+.signin {
+  background-color: rgb(84, 152, 155);
+}
+
+
+                                        /*userhome*/
+
+/*投稿*/
+
+.post-label {
+    color: #555555;
+}
+                                        
+.each-post {
+background-color: #EBF5F7;
+box-shadow: black 1px 1px 2px;
+padding: 5px;
+width: 75%;
+margin: 10px auto;
+}
+
+.posts {
+padding: 70px 0 180px 0;
+}
+
+
+
+/*投稿フォーム*/
+.userform {
+  border: 5px solid #189AB4;
+  border-radius: 30px 30px 0 0;
+  background-color: #A4E5E0;
+  width: 100%;
+  position: fixed;
+  bottom: 0px;
+  z-index: 8;
+  padding: 10px;
+}
+
+/*画像投稿フォーム*/
+
+.image-form-con {
+  float: left;
+  width: 50%;
+}
+
+.image-form {
+  border: 3px solid #189AB4;
+  border-radius: 10px;
+  width: 50%;
+  margin: 0 auto;
+  height: 150px;
+  
+}
+
+.imgf-con {
+  float: left;
+  width: 50%;
+}
+
+.prev-con {
+  float: left;
+  width: 50%;
+}
+
+.image-form input {
+  margin-top: 40px;
+}
+
+.preview {
+  width: 50%;
+  margin-left: 20px;
+}
+
+.preview p {
+  margin: 10px 0;
+}
+
+
+
+
+.userform textarea {
+  resize: none;
+  width: 500px;
+  height: 100px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  border: 2px solid #37BEB0;
+  background-color: #F0FFFF;
+}
+
+.toko-container {
+  float: left;
+  width: 50%;
+}
+
+.toko {
+  float: left;
+}
+
+.fa-images {
+  font-size: 20px;
+}
+
+.image-input {
+  display: none;
+}
+
+.image-upload {
+  display: inline-block;
+  border: 2px solid #05445E;
+  padding: 5px;
+  border-radius: 20px;
+  margin-top: 20px;
+  color: #05445E;
+  cursor: pointer;
+}
+
+.image-upload:active {
+  position: relative;
+  top: 5px;
+}
+
+/*投稿*/
+.delete, .edit{
+    display: none;
+}
+
+i {
+ font-size: 20px;
+ cursor: pointer;
+}
+
+i:hover {
+  opacity: 0.5;
+}
+
+.fa-edit {
+  margin-left: 50px;
+}
+
+.comment-box {
+  background-color: #B0E0E6;
+}
+
+.post-img {
+  margin: 10px;
+  box-shadow: black 2px 2px 2px;
+  border-radius: 5px;
+}
+
+
+
+.settings { /*設定ギアマーク*/
+  display: block;
+  color: white;
+  line-height: 60px;
+  float: right;
+  margin-right: 20px;
+}
+                                    /*設定ページ*/
+
+.settings-container {
+    border-radius: 10px;
+    border: 3px solid #333652;
+    width: 50%;
+    height: 550px;
+    margin: 0 auto;
+}
+
+.settings-container {
+    margin-top: 100px;
+}
+
+
+
